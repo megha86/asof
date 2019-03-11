@@ -1,0 +1,333 @@
+Kind,Name,CBO,NOC,SLOC,LCOM,DIT,RFC,WMC,CHANGE
+Public Class,net.sourceforge.subsonic.ajax.ArtistInfo,2,0,14,33,0,16,3,yes
+Public Class,net.sourceforge.subsonic.ajax.ChatService,17,0,88,77,0,20,7,no
+Public Static Class,net.sourceforge.subsonic.ajax.ChatService.Message,2,0,19,62,0,17,4,no
+Public Static Class,net.sourceforge.subsonic.ajax.ChatService.Messages,1,0,14,55,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.CoverArtInfo,1,0,13,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.CoverArtService,14,0,79,50,0,19,6,yes
+Public Class,net.sourceforge.subsonic.ajax.LyricsInfo,1,0,29,71,0,20,7,no
+Public Class,net.sourceforge.subsonic.ajax.LyricsService,9,0,40,66,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.MultiService,16,0,49,75,0,21,8,yes
+Public Class,net.sourceforge.subsonic.ajax.NetworkStatus,2,0,25,60,0,18,5,no
+Public Class,net.sourceforge.subsonic.ajax.NowPlayingInfo,1,0,60,83,0,25,12,no
+Public Class,net.sourceforge.subsonic.ajax.NowPlayingService,20,0,94,77,0,21,8,no
+Public Class,net.sourceforge.subsonic.ajax.PlaylistInfo,2,0,53,33,0,16,3,no
+Public Static Class,net.sourceforge.subsonic.ajax.PlaylistInfo.Entry,1,0,39,75,0,21,8,no
+Public Class,net.sourceforge.subsonic.ajax.PlaylistService,22,0,180,76,0,36,23,no
+Public Class,net.sourceforge.subsonic.ajax.PlayQueueInfo,4,0,154,80,0,24,11,no
+Public Static Class,net.sourceforge.subsonic.ajax.PlayQueueInfo.Entry,2,0,101,90,0,33,20,no
+Public Class,net.sourceforge.subsonic.ajax.PlayQueueService,34,0,469,93,0,69,56,yes
+Public Class,net.sourceforge.subsonic.ajax.ScanInfo,0,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.SimilarArtist,1,0,13,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.StarService,6,0,21,66,0,18,5,no
+Public Class,net.sourceforge.subsonic.ajax.TagService,12,0,64,44,0,16,3,no
+Public Class,net.sourceforge.subsonic.ajax.TransferService,3,0,10,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.ajax.UploadInfo,0,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.cache.CacheFactory,6,0,13,50,0,15,2,no
+Public Class,net.sourceforge.subsonic.command.AdvancedSettingsCommand,1,0,93,92,0,39,26,yes
+Public Class,net.sourceforge.subsonic.command.EnumHolder,1,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.command.GeneralSettingsCommand,2,0,135,94,0,51,38,no
+Public Class,net.sourceforge.subsonic.command.MusicFolderSettingsCommand,3,0,120,87,0,29,16,no
+Public Static Class,net.sourceforge.subsonic.command.MusicFolderSettingsCommand.MusicFolderInfo,5,0,63,75,0,27,14,no
+Public Class,net.sourceforge.subsonic.command.NetworkSettingsCommand,2,0,44,83,0,25,12,yes
+Public Class,net.sourceforge.subsonic.command.PasswordSettingsCommand,1,0,36,80,0,23,10,no
+Public Class,net.sourceforge.subsonic.command.PersonalSettingsCommand,6,0,163,95,0,59,46,yes
+Public Class,net.sourceforge.subsonic.command.PlayerSettingsCommand,8,0,149,94,0,49,36,no
+Public Static Class,net.sourceforge.subsonic.command.PlayerSettingsCommand.TranscodingHolder,1,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.command.PodcastSettingsCommand,1,0,37,80,0,23,10,no
+Public Class,net.sourceforge.subsonic.command.SearchCommand,4,0,82,87,0,29,16,no
+Public Static Class,net.sourceforge.subsonic.command.SearchCommand.Match,2,0,24,60,0,18,5,no
+Public Class,net.sourceforge.subsonic.command.UserSettingsCommand,6,0,222,95,0,72,59,no
+Public Abstract Class,net.sourceforge.subsonic.controller.AbstractChartController,4,2,14,0,0,16,3,no
+Public Class,net.sourceforge.subsonic.controller.AdvancedSettingsController,8,0,48,0,1,16,3,yes
+Public Class,net.sourceforge.subsonic.controller.AllmusicController,1,0,7,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.controller.AutoCoverDemo,9,0,30,0,0,14,1,no
+Private Static Class,net.sourceforge.subsonic.controller.AutoCoverDemo.AlbumComponent,7,0,13,0,0,690,2,no
+Public Class,net.sourceforge.subsonic.controller.AvatarController,9,0,41,25,0,17,4,no
+Public Class,net.sourceforge.subsonic.controller.AvatarUploadController,20,0,71,50,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.ChangeCoverArtController,7,0,26,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.controller.CoverArtController,40,0,479,91,0,34,21,yes
+Private Class,net.sourceforge.subsonic.controller.CoverArtController.AlbumCoverArtRequest,6,0,26,0,1,28,6,no
+Private Class,net.sourceforge.subsonic.controller.CoverArtController.ArtistCoverArtRequest,6,0,26,16,1,28,6,no
+Static Class,net.sourceforge.subsonic.controller.CoverArtController.AutoCover,8,0,43,7,0,15,2,no
+Private Abstract Class,net.sourceforge.subsonic.controller.CoverArtController.CoverArtRequest,11,5,37,66,0,22,9,no
+Private Class,net.sourceforge.subsonic.controller.CoverArtController.MediaFileCoverArtRequest,7,0,28,41,1,28,6,no
+Private Class,net.sourceforge.subsonic.controller.CoverArtController.PlaylistCoverArtRequest,16,0,55,25,1,30,8,no
+Private Class,net.sourceforge.subsonic.controller.CoverArtController.VideoCoverArtRequest,11,0,46,35,1,29,7,no
+Public Class,net.sourceforge.subsonic.controller.DBController,6,0,22,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.controller.DLNASettingsController,7,0,38,50,1,18,5,no
+Public Class,net.sourceforge.subsonic.controller.DownloadController,40,0,228,82,0,28,15,yes
+Public Class,net.sourceforge.subsonic.controller.EditTagsController,12,0,119,50,1,17,4,no
+Public Static Class,net.sourceforge.subsonic.controller.EditTagsController.Song,2,0,72,90,0,33,20,no
+Public Class,net.sourceforge.subsonic.controller.ExternalPlayerController,19,0,64,66,1,19,6,yes
+Public Class,net.sourceforge.subsonic.controller.GeneralSettingsController,7,0,71,0,1,16,3,no
+Public Class,net.sourceforge.subsonic.controller.HelpController,10,0,39,33,1,16,3,yes
+Public Class,net.sourceforge.subsonic.controller.HLSController,18,0,125,84,0,23,10,yes
+Public Class,net.sourceforge.subsonic.controller.HLSControllerTestCase,5,0,27,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.controller.HomeController,23,0,249,84,1,31,18,yes
+Public Static Class,net.sourceforge.subsonic.controller.HomeController.Album,3,0,72,90,0,33,20,no
+Public Class,net.sourceforge.subsonic.controller.ImportPlaylistController,10,0,41,44,1,16,3,no
+Public Class,net.sourceforge.subsonic.controller.InternetRadioSettingsController,10,0,63,40,1,18,5,no
+Public Class,net.sourceforge.subsonic.controller.JAXBWriter,17,0,98,75,0,22,9,no
+Public Class,net.sourceforge.subsonic.controller.LeftController,26,0,103,66,1,21,8,yes
+Public Class,net.sourceforge.subsonic.controller.LyricsController,4,0,10,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.controller.M3UController,15,0,66,71,0,20,7,yes
+Public Class,net.sourceforge.subsonic.controller.MainController,30,0,203,80,1,29,16,yes
+Public Class,net.sourceforge.subsonic.controller.MoreController,15,0,45,60,1,18,5,yes
+Public Class,net.sourceforge.subsonic.controller.MultiController,17,0,166,75,1,27,14,yes
+Public Class,net.sourceforge.subsonic.controller.MusicFolderSettingsController,14,0,76,73,1,22,9,yes
+Public Class,net.sourceforge.subsonic.controller.NetworkSettingsController,8,0,32,37,1,17,4,yes
+Public Class,net.sourceforge.subsonic.controller.NowPlayingController,9,0,28,50,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.PasswordSettingsController,4,0,22,0,1,16,3,no
+Public Class,net.sourceforge.subsonic.controller.PersonalSettingsController,13,0,116,64,1,20,7,yes
+Public Class,net.sourceforge.subsonic.controller.PlayerSettingsController,15,0,85,47,1,20,7,no
+Public Class,net.sourceforge.subsonic.controller.PlaylistController,13,0,39,60,1,18,5,no
+Public Class,net.sourceforge.subsonic.controller.PlaylistsController,9,0,20,33,1,16,3,no
+Public Class,net.sourceforge.subsonic.controller.PlayQueueController,11,0,31,50,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.PodcastController,16,0,78,56,1,17,4,yes
+Public Static Class,net.sourceforge.subsonic.controller.PodcastController.Podcast,1,0,29,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.controller.PodcastReceiverAdminController,12,0,56,25,1,17,4,yes
+Public Class,net.sourceforge.subsonic.controller.PodcastSettingsController,6,0,28,37,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.ProxyController,3,0,23,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.controller.RandomPlayQueueController,13,0,58,71,1,20,7,no
+Public Class,net.sourceforge.subsonic.controller.ReloadFrame,1,0,21,50,0,19,6,no
+Public Class,net.sourceforge.subsonic.controller.RESTController,90,0,1930,92,1,130,117,yes
+Private Static Class,net.sourceforge.subsonic.controller.RESTController.BookmarkKey,2,0,7,0,1,21,2,no
+Public Class,net.sourceforge.subsonic.controller.RightController,9,0,33,50,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.SearchController,14,0,47,70,1,19,6,no
+Public Class,net.sourceforge.subsonic.controller.SetMusicFileInfoController,5,0,17,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.controller.SetRatingController,7,0,25,50,1,17,4,no
+Public Class,net.sourceforge.subsonic.controller.SettingsController,4,0,11,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.controller.ShareManagementController,19,0,78,74,1,22,9,no
+Public Class,net.sourceforge.subsonic.controller.ShareSettingsController,18,0,93,70,1,23,10,yes
+Public Static Class,net.sourceforge.subsonic.controller.ShareSettingsController.ShareInfo,2,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.controller.SonosSettingsController,7,0,38,50,1,18,5,no
+Public Class,net.sourceforge.subsonic.controller.StarredController,17,0,52,66,1,19,6,no
+Public Class,net.sourceforge.subsonic.controller.StatusChartController,18,0,78,33,1,18,2,no
+Public Class,net.sourceforge.subsonic.controller.StatusController,11,0,79,0,1,15,2,no
+Public Static Class,net.sourceforge.subsonic.controller.StatusController.TransferStatusHolder,6,0,46,73,0,23,10,no
+Public Class,net.sourceforge.subsonic.controller.StreamController,39,0,297,88,0,33,20,yes
+Public Class,net.sourceforge.subsonic.controller.StreamControllerTestCase,3,0,71,0,1,16,3,no
+Public Class,net.sourceforge.subsonic.controller.TopController,9,0,20,33,1,16,3,yes
+Public Class,net.sourceforge.subsonic.controller.TranscodingSettingsController,9,0,87,50,1,19,6,no
+Public Class,net.sourceforge.subsonic.controller.UploadController,24,0,159,69,1,19,6,no
+Private Class,net.sourceforge.subsonic.controller.UploadController.UploadListenerImpl,12,0,31,37,0,17,4,no
+Public Class,net.sourceforge.subsonic.controller.UserChartController,10,0,71,62,1,20,4,no
+Public Class,net.sourceforge.subsonic.controller.UserSettingsController,18,0,121,57,1,24,11,no
+Public Class,net.sourceforge.subsonic.controller.VideoPlayerController,14,0,64,72,1,19,6,yes
+Public Class,net.sourceforge.subsonic.controller.WapController,26,0,150,78,1,30,17,no
+Public Class,net.sourceforge.subsonic.dao.AbstractDao,12,15,112,88,0,31,18,no
+Public Class,net.sourceforge.subsonic.dao.AlbumDao,8,0,207,32,1,48,17,yes
+Private Static Class,net.sourceforge.subsonic.dao.AlbumDao.AlbumMapper,3,0,20,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.ArtistDao,9,0,109,69,1,43,12,yes
+Private Static Class,net.sourceforge.subsonic.dao.ArtistDao.ArtistMapper,3,0,10,0,0,14,1,yes
+Public Class,net.sourceforge.subsonic.dao.AvatarDao,4,0,30,12,1,35,4,no
+Private Static Class,net.sourceforge.subsonic.dao.AvatarDao.AvatarRowMapper,3,0,5,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.BookmarkDao,4,0,32,37,1,35,4,no
+Private Static Class,net.sourceforge.subsonic.dao.BookmarkDao.BookmarkRowMapper,3,0,5,0,0,14,1,no
+Public Abstract Class,net.sourceforge.subsonic.dao.DaoTestCaseBase,15,6,57,77,1,18,5,yes
+Public Class,net.sourceforge.subsonic.dao.InternetRadioDao,7,0,28,58,1,35,4,no
+Private Static Class,net.sourceforge.subsonic.dao.InternetRadioDao.InternetRadioRowMapper,3,0,4,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.InternetRadioDaoTestCase,5,0,41,0,2,23,5,no
+Public Class,net.sourceforge.subsonic.dao.MediaFileDao,11,0,402,78,1,63,32,yes
+Private Static Class,net.sourceforge.subsonic.dao.MediaFileDao.GenreMapper,3,0,4,0,0,14,1,no
+Private Static Class,net.sourceforge.subsonic.dao.MediaFileDao.MediaFileMapper,3,0,34,0,0,14,1,no
+Private Static Class,net.sourceforge.subsonic.dao.MediaFileDao.MusicFileInfoMapper,3,0,8,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.MusicFolderDao,8,0,42,61,1,37,6,no
+Private Static Class,net.sourceforge.subsonic.dao.MusicFolderDao.MusicFolderRowMapper,4,0,4,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.MusicFolderDaoTestCase,7,0,40,0,2,23,5,no
+Public Class,net.sourceforge.subsonic.dao.PlayerDao,13,0,96,65,1,39,8,no
+Private Class,net.sourceforge.subsonic.dao.PlayerDao.PlayerRowMapper,7,0,19,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.PlayerDaoTestCase,9,0,118,0,2,27,9,no
+Public Class,net.sourceforge.subsonic.dao.PlaylistDao,13,0,86,72,1,42,11,no
+Private Static Class,net.sourceforge.subsonic.dao.PlaylistDao.PlaylistMapper,3,0,14,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.PlayQueueDao,5,0,35,25,1,33,2,no
+Private Static Class,net.sourceforge.subsonic.dao.PlayQueueDao.PlayQueueMapper,3,0,10,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.PodcastDao,7,0,66,77,1,40,9,yes
+Private Static Class,net.sourceforge.subsonic.dao.PodcastDao.PodcastChannelRowMapper,5,0,5,0,0,14,1,yes
+Private Static Class,net.sourceforge.subsonic.dao.PodcastDao.PodcastEpisodeRowMapper,6,0,6,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.PodcastDaoTestCase,8,0,159,0,2,32,14,yes
+Public Class,net.sourceforge.subsonic.dao.RatingDao,8,0,58,0,1,36,5,no
+Public Abstract Class,net.sourceforge.subsonic.dao.schema.Schema,2,23,27,0,0,17,4,no
+Public Class,net.sourceforge.subsonic.dao.ShareDao,6,0,52,66,1,39,8,yes
+Private Static Class,net.sourceforge.subsonic.dao.ShareDao.ShareFileRowMapper,3,0,4,0,0,14,1,no
+Private Static Class,net.sourceforge.subsonic.dao.ShareDao.ShareRowMapper,3,0,5,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.TranscodingDao,7,0,49,61,1,37,6,no
+Private Static Class,net.sourceforge.subsonic.dao.TranscodingDao.TranscodingRowMapper,3,0,5,0,0,14,1,no
+Public Class,net.sourceforge.subsonic.dao.TranscodingDaoTestCase,7,0,95,0,2,26,8,no
+Public Class,net.sourceforge.subsonic.dao.UserDao,15,0,243,84,1,44,13,yes
+Private Class,net.sourceforge.subsonic.dao.UserDao.UserRowMapper,4,0,7,0,0,14,1,no
+Private Static Class,net.sourceforge.subsonic.dao.UserDao.UserSettingsRowMapper,10,0,44,0,0,14,1,yes
+Public Class,net.sourceforge.subsonic.dao.UserDaoTestCase,13,0,186,0,2,26,8,yes
+Public Class,net.sourceforge.subsonic.domain.Album,3,0,136,91,0,47,34,no
+Public Class,net.sourceforge.subsonic.domain.Artist,2,0,54,78,0,27,14,yes
+Public Class,net.sourceforge.subsonic.domain.ArtistBio,1,0,35,71,0,20,7,no
+Public Class,net.sourceforge.subsonic.domain.Avatar,2,0,39,75,0,21,8,no
+Public Class,net.sourceforge.subsonic.domain.Bookmark,2,0,60,80,0,28,15,no
+Public Class,net.sourceforge.subsonic.domain.CacheElement,2,0,32,71,0,20,7,no
+Public Class,net.sourceforge.subsonic.domain.CacheElementTestCase,1,0,11,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.domain.Genre,1,0,27,57,0,20,7,no
+Public Class,net.sourceforge.subsonic.domain.Genres,6,0,21,50,0,17,4,no
+Public Class,net.sourceforge.subsonic.domain.InternetRadio,3,0,51,78,0,26,13,no
+Public Class,net.sourceforge.subsonic.domain.LicenseInfo,3,0,45,70,0,24,11,no
+Public Class,net.sourceforge.subsonic.domain.MediaFile,10,1,341,95,0,92,79,no
+Public Class,net.sourceforge.subsonic.domain.MediaFileComparator,5,0,56,50,0,17,4,no
+Public Class,net.sourceforge.subsonic.domain.MediaFileComparatorTestCase,4,0,74,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.domain.MediaLibraryStatistics,7,0,71,71,0,28,15,no
+Public Class,net.sourceforge.subsonic.domain.MusicFolder,6,0,79,81,0,30,17,no
+Public Class,net.sourceforge.subsonic.domain.MusicFolderContent,2,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.domain.MusicIndex,4,0,76,66,0,19,6,no
+Public Static Abstract Class,net.sourceforge.subsonic.domain.MusicIndex.SortableArtist,3,4,18,50,0,17,4,no
+Public Static Class,net.sourceforge.subsonic.domain.MusicIndex.SortableArtistWithArtist,3,0,9,0,1,19,2,no
+Public Static Class,net.sourceforge.subsonic.domain.MusicIndex.SortableArtistWithMediaFiles,5,0,11,33,1,20,3,no
+Public Class,net.sourceforge.subsonic.domain.Player,7,0,118,91,0,44,31,no
+Public Class,net.sourceforge.subsonic.domain.Playlist,3,0,90,86,0,36,23,no
+Public Class,net.sourceforge.subsonic.domain.PlayQueue,13,0,226,81,0,42,29,no
+Public Class,net.sourceforge.subsonic.domain.PlayQueueTestCase,11,0,231,0,1,26,13,no
+Private Static Class,net.sourceforge.subsonic.domain.PlayQueueTestCase.TestMediaFile,4,0,51,81,1,104,12,no
+Public Class,net.sourceforge.subsonic.domain.PlayStatus,4,0,26,62,0,19,6,yes
+Public Class,net.sourceforge.subsonic.domain.PodcastChannel,4,0,53,75,0,26,13,yes
+Public Class,net.sourceforge.subsonic.domain.PodcastEpisode,7,0,114,88,0,39,26,yes
+Public Class,net.sourceforge.subsonic.domain.RandomSearchCriteria,3,0,29,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.domain.SavedPlayQueue,5,0,61,80,0,28,15,no
+Public Class,net.sourceforge.subsonic.domain.SearchCriteria,1,0,22,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.domain.SearchResult,5,0,27,80,0,20,7,no
+Public Class,net.sourceforge.subsonic.domain.Share,2,0,71,83,0,31,18,no
+Public Class,net.sourceforge.subsonic.domain.SortableArtistTestCase,9,0,71,75,1,17,4,no
+Private Class,net.sourceforge.subsonic.domain.SortableArtistTestCase.TestSortableArtist,3,0,8,0,1,19,2,no
+Public Class,net.sourceforge.subsonic.domain.Theme,1,0,22,60,0,18,5,no
+Public Class,net.sourceforge.subsonic.domain.TranscodeSchemeTestCase,1,0,11,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.domain.Transcoding,3,0,84,83,0,33,20,no
+Public Class,net.sourceforge.subsonic.domain.TransferStatus,11,0,123,87,0,34,21,no
+Public Static Class,net.sourceforge.subsonic.domain.TransferStatus.Sample,0,0,14,33,0,16,3,no
+Public Static Class,net.sourceforge.subsonic.domain.TransferStatus.SampleHistory,1,0,8,0,1,120,2,no
+Public Class,net.sourceforge.subsonic.domain.User,3,0,177,92,0,51,38,yes
+Public Class,net.sourceforge.subsonic.domain.UserSettings,7,0,245,95,0,60,47,yes
+Public Static Class,net.sourceforge.subsonic.domain.UserSettings.Visibility,0,0,79,85,0,33,20,no
+Public Class,net.sourceforge.subsonic.domain.Version,3,0,79,28,0,21,8,no
+Public Class,net.sourceforge.subsonic.domain.VersionTestCase,2,0,27,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.domain.VideoTranscodingSettings,0,0,29,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.filter.BootstrapVerificationFilter,4,0,51,83,0,19,6,yes
+Public Class,net.sourceforge.subsonic.filter.ParameterDecodingFilter,5,0,82,100,0,16,3,no
+Private Static Class,net.sourceforge.subsonic.filter.ParameterDecodingFilter.DecodingServletRequestWrapper,11,0,68,0,1,19,6,no
+Public Class,net.sourceforge.subsonic.filter.RequestEncodingFilter,2,0,15,0,0,16,3,no
+Public Class,net.sourceforge.subsonic.filter.ResponseHeaderFilter,3,0,17,0,0,16,3,yes
+Public Class,net.sourceforge.subsonic.filter.RESTFilter,8,0,36,80,0,18,5,yes
+Public Class,net.sourceforge.subsonic.i18n.SubsonicLocaleResolver,9,0,44,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.io.InputStreamReaderThread,7,0,27,12,0,88,2,yes
+Public Class,net.sourceforge.subsonic.io.PlayQueueInputStream,20,0,97,65,0,30,7,no
+Public Class,net.sourceforge.subsonic.io.RangeOutputStream,5,0,39,50,0,30,5,no
+Public Class,net.sourceforge.subsonic.io.RangeOutputStreamTestCase,9,0,63,0,1,18,5,no
+Public Class,net.sourceforge.subsonic.io.ShoutCastOutputStream,9,0,91,78,0,27,8,no
+Public Class,net.sourceforge.subsonic.io.TranscodeInputStream,12,0,54,48,0,28,5,yes
+Public Class,net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator,9,0,63,55,0,17,4,no
+Public Class,net.sourceforge.subsonic.ldap.UserDetailsServiceBasedAuthoritiesPopulator,0,0,9,0,0,15,2,no
+Public Class,net.sourceforge.subsonic.Logger,19,0,123,90,0,29,16,no
+Public Static Class,net.sourceforge.subsonic.Logger.Entry,7,0,41,61,0,20,7,no
+Public Class,net.sourceforge.subsonic.MissingTranslations,10,0,24,0,0,15,2,no
+Public Class,net.sourceforge.subsonic.security.RESTRequestParameterProcessingFilter,12,0,108,77,0,23,10,yes
+Public Class,net.sourceforge.subsonic.service.AdService,0,0,9,25,0,15,2,no
+Public Class,net.sourceforge.subsonic.service.AudioScrobblerService,21,0,196,85,0,24,11,yes
+Private Static Class,net.sourceforge.subsonic.service.AudioScrobblerService.RegistrationData,2,0,10,0,0,13,0,no
+Private Class,net.sourceforge.subsonic.service.AudioScrobblerService.RegistrationThread,8,0,32,0,0,89,3,no
+Public Class,net.sourceforge.subsonic.service.jukebox.AudioPlayer,20,0,118,66,0,21,8,yes
+Private Class,net.sourceforge.subsonic.service.jukebox.AudioPlayer.AudioDataWriter,8,0,31,0,0,15,2,yes
+Public Class,net.sourceforge.subsonic.service.jukebox.PlayerTest,15,0,56,80,0,18,5,no
+Public Class,net.sourceforge.subsonic.service.JukeboxService,23,0,130,83,0,29,16,no
+Public Class,net.sourceforge.subsonic.service.LastFmCache,12,0,90,68,1,24,11,yes
+Public Class,net.sourceforge.subsonic.service.LastFmService,19,0,158,80,0,26,13,yes
+Public Class,net.sourceforge.subsonic.service.MediaFileService,32,0,406,87,0,61,48,no
+Public Class,net.sourceforge.subsonic.service.MediaScannerService,28,0,277,83,0,33,20,yes
+Public Class,net.sourceforge.subsonic.service.metadata.DefaultMetaDataParser,4,0,18,0,1,27,4,no
+Public Class,net.sourceforge.subsonic.service.metadata.FFmpegParser,23,0,78,76,1,28,5,no
+Public Class,net.sourceforge.subsonic.service.metadata.JaudiotaggerParser,17,0,196,86,1,36,13,no
+Public Class,net.sourceforge.subsonic.service.metadata.MediaFileTestCase,3,0,29,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.service.metadata.MetaData,2,0,93,92,0,39,26,no
+Public Abstract Class,net.sourceforge.subsonic.service.metadata.MetaDataParser,9,4,67,0,0,23,10,no
+Public Class,net.sourceforge.subsonic.service.metadata.MetaDataParserFactory,3,0,14,0,0,15,2,no
+Public Class,net.sourceforge.subsonic.service.metadata.MetaDataParserTestCase,2,0,53,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.service.MusicIndexService,28,0,163,66,0,28,15,yes
+Private Static Class,net.sourceforge.subsonic.service.MusicIndexService.MusicIndexComparator,3,0,22,0,0,15,2,no
+Public Class,net.sourceforge.subsonic.service.MusicIndexServiceTestCase,4,0,36,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.service.NetworkService,13,0,216,88,0,21,8,yes
+Private Class,net.sourceforge.subsonic.service.NetworkService.PortForwardingTask,11,0,67,0,1,17,2,no
+Public Static Class,net.sourceforge.subsonic.service.NetworkService.Status,2,0,14,33,0,16,3,no
+Private Abstract Class,net.sourceforge.subsonic.service.NetworkService.Task,5,2,10,0,0,15,2,no
+Private Class,net.sourceforge.subsonic.service.NetworkService.URLRedirectionTask,14,0,70,0,1,17,2,yes
+Public Class,net.sourceforge.subsonic.service.PlayerService,13,0,173,84,0,31,18,yes
+Public Class,net.sourceforge.subsonic.service.PlaylistService,35,0,362,85,0,42,29,no
+Private Class,net.sourceforge.subsonic.service.PlaylistService.M3UFormat,9,0,27,0,1,19,2,no
+Private Static Class,net.sourceforge.subsonic.service.PlaylistService.PlaylistComparator,3,0,5,0,0,14,1,no
+Private Abstract Class,net.sourceforge.subsonic.service.PlaylistService.PlaylistFormat,14,3,42,0,0,17,4,no
+Private Class,net.sourceforge.subsonic.service.PlaylistService.PLSFormat,11,0,34,0,1,19,2,no
+Private Class,net.sourceforge.subsonic.service.PlaylistService.XSPFFormat,11,0,44,0,1,19,2,no
+Public Class,net.sourceforge.subsonic.service.PodcastService,45,0,459,88,0,45,32,yes
+Public Class,net.sourceforge.subsonic.service.RatingService,11,0,37,58,0,21,8,no
+Public Class,net.sourceforge.subsonic.service.SearchService,31,0,432,88,0,34,21,no
+Private Class,net.sourceforge.subsonic.service.SearchService.SubsonicAnalyzer,6,0,30,0,1,16,3,no
+Class,net.sourceforge.subsonic.service.SearchService.SubsonicAnalyzer.reusableTokenStream.SavedStreams,0,0,4,0,0,13,0,no
+Public Class,net.sourceforge.subsonic.service.SecurityService,11,0,126,78,0,36,23,yes
+Public Class,net.sourceforge.subsonic.service.SecurityServiceTestCase,1,0,26,0,1,14,1,no
+Public Class,net.sourceforge.subsonic.service.ServiceLocator,2,0,18,60,0,18,5,no
+Public Class,net.sourceforge.subsonic.service.SettingsService,53,0,944,98,0,185,172,yes
+Public Class,net.sourceforge.subsonic.service.SettingsServiceTestCase,9,0,104,40,1,18,5,yes
+Public Class,net.sourceforge.subsonic.service.ShareService,15,0,73,78,0,26,13,yes
+Class,net.sourceforge.subsonic.service.sonos.AlbumList,1,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.service.sonos.SonosFaultInterceptor,10,0,23,50,1,15,2,no
+Public Class,net.sourceforge.subsonic.service.sonos.SonosHelper,44,0,548,90,0,65,52,yes
+Public Class,net.sourceforge.subsonic.service.sonos.SonosServiceRegistration,8,0,49,66,0,16,3,yes
+Public Class,net.sourceforge.subsonic.service.sonos.SonosSoapFault,1,2,24,33,0,52,3,no
+Public Static Class,net.sourceforge.subsonic.service.sonos.SonosSoapFault.LoginInvalid,0,0,4,0,1,53,1,no
+Public Static Class,net.sourceforge.subsonic.service.sonos.SonosSoapFault.LoginUnauthorized,0,0,4,0,1,53,1,no
+Public Class,net.sourceforge.subsonic.service.SonosService,35,0,359,95,0,49,36,yes
+Public Class,net.sourceforge.subsonic.service.StatusService,17,0,111,76,0,27,14,no
+Public Class,net.sourceforge.subsonic.service.StatusServiceTestCase,6,0,40,0,1,16,3,no
+Public Class,net.sourceforge.subsonic.service.TranscodingService,27,0,281,84,0,36,23,no
+Public Static Class,net.sourceforge.subsonic.service.TranscodingService.Parameters,4,0,38,78,0,23,10,no
+Public Class,net.sourceforge.subsonic.service.upnp.ApacheUpnpServiceConfiguration,2,0,10,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.service.upnp.ClingRouter,9,0,82,62,0,21,8,no
+Class,net.sourceforge.subsonic.service.upnp.ClingRouter.findConnectionService.ConnectionServiceDiscoverer,1,0,9,0,1,15,2,no
+Public Class,net.sourceforge.subsonic.service.upnp.FolderBasedContentDirectory,21,0,192,81,2,39,18,no
+Public Class,net.sourceforge.subsonic.service.upnp.MSMediaReceiverRegistrarService,0,0,2,0,1,13,0,no
+Public Class,net.sourceforge.subsonic.service.upnp.NATPMPRouter,1,0,26,25,0,17,4,no
+Public Abstract Class,net.sourceforge.subsonic.service.upnp.SubsonicContentDirectory,11,1,72,81,1,21,8,no
+Public Class,net.sourceforge.subsonic.service.UPnPService,16,0,114,78,0,23,10,no
+Public Class,net.sourceforge.subsonic.service.VersionService,17,0,132,85,0,24,11,no
+Public Class,net.sourceforge.subsonic.taglib.EscapeJavaScriptTag,2,0,23,19,1,18,5,no
+Public Class,net.sourceforge.subsonic.taglib.FormatBytesTag,4,0,26,19,1,18,5,no
+Public Class,net.sourceforge.subsonic.taglib.ParamTag,3,0,29,33,1,19,6,no
+Public Class,net.sourceforge.subsonic.taglib.UrlTag,13,0,122,76,1,27,14,no
+Private Static Class,net.sourceforge.subsonic.taglib.UrlTag.Parameter,1,0,14,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.taglib.WikiTag,2,0,30,60,1,18,5,no
+Public Class,net.sourceforge.subsonic.theme.SubsonicThemeResolver,8,0,48,66,0,19,6,no
+Public Class,net.sourceforge.subsonic.theme.SubsonicThemeSource,4,0,24,33,1,16,3,no
+Public Class,net.sourceforge.subsonic.upload.MonitoredDiskFileItem,6,0,18,25,1,15,2,no
+Public Class,net.sourceforge.subsonic.upload.MonitoredDiskFileItemFactory,4,0,14,0,1,16,3,no
+Public Class,net.sourceforge.subsonic.upload.MonitoredOutputStream,2,0,26,16,0,25,6,no
+Public Generic Class,net.sourceforge.subsonic.util.BoundedList,0,1,21,50,0,118,4,no
+Public Class,net.sourceforge.subsonic.util.FileUtil,9,0,107,81,0,24,11,yes
+Private Static Abstract Generic Class,net.sourceforge.subsonic.util.FileUtil.FileTask,3,7,13,33,0,16,3,no
+Public Class,net.sourceforge.subsonic.util.HttpRange,6,0,53,45,0,21,8,no
+Public Class,net.sourceforge.subsonic.util.HttpRangeTestCase,3,0,48,0,1,17,4,no
+Public Generic Class,net.sourceforge.subsonic.util.Pair,1,1,32,33,0,19,6,no
+Public Class,net.sourceforge.subsonic.util.StringUtil,28,0,270,93,0,35,22,yes
+Public Class,net.sourceforge.subsonic.util.StringUtilTestCase,6,0,174,0,1,32,19,yes
+Public Class,net.sourceforge.subsonic.util.URLBuilder,4,0,51,77,0,25,12,no
+Public Class,net.sourceforge.subsonic.util.Util,17,0,117,93,0,28,15,no
+Public Class,net.sourceforge.subsonic.validator.PasswordSettingsValidator,3,0,13,0,0,15,2,no
+Public Class,net.sourceforge.subsonic.validator.UserSettingsValidator,5,0,42,50,0,17,4,no
+Public Class,org.json.CDL,6,0,146,0,0,23,10,no
+Public Class,org.json.Cookie,7,0,85,0,0,17,4,no
+Public Class,org.json.CookieList,7,0,32,0,0,15,2,no
+Public Class,org.json.HTTP,7,0,62,50,0,15,2,no
+Public Class,org.json.HTTPTokener,4,0,33,0,1,33,2,no
+Public Class,org.json.JSONArray,19,0,365,77,0,62,49,no
+Public Class,org.json.JSONException,1,0,14,66,0,47,3,no
+Public Class,org.json.JSONML,10,0,295,0,0,20,7,no
+Public Class,org.json.JSONObject,34,0,809,87,0,76,63,no
+Private Static Class,org.json.JSONObject.Null,1,0,11,0,0,16,3,no
+Public Class,org.json.JSONStringer,2,0,8,0,1,29,2,no
+Public Class,org.json.JSONTokener,12,2,250,78,0,31,18,no
+Public Class,org.json.JSONWriter,8,1,134,66,0,27,14,no
+Public Class,org.json.XML,15,0,320,90,0,20,7,no
+Public Class,org.json.XMLTokener,7,0,239,85,1,38,7,no
